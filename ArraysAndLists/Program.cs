@@ -15,8 +15,8 @@ namespace ArraysAndLists
             /* Create a list of type int
              * Name the list "evens"
              */
-
-
+            
+            
             var evens = new List<int>();
             /* Create another list of type int
              * Name the list "odds"
@@ -58,7 +58,7 @@ namespace ArraysAndLists
              */
 
 
-            for (int i = 0; i < odds.Count; i++)
+            for (int i = 0; i <= odds.Count - 1; i++)
             {
              Console.Write(odds[i]);
             }
